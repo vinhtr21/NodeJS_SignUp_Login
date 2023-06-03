@@ -14,5 +14,4 @@ app.use('/', routeRegister);
 app.use('/', routeService)
 app.listen(process.env.PORT || 3000, (req, res) => {
     console.log(`http://localhost:${process.env.PORT}`)
-    console.log()
 })
